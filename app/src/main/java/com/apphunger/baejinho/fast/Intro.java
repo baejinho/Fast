@@ -19,7 +19,7 @@ public class Intro extends AppCompatActivity {
             public void handleMessage(Message msg){
 
                 finish();
-                Intent intent = new Intent(Intro.this, Pet.class);
+                Intent intent = new Intent(Intro.this, List2Activity.class);
                 startActivity(intent);
             }
         };
