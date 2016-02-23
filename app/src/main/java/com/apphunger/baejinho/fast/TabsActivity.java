@@ -88,10 +88,10 @@ public class TabsActivity extends AppCompatActivity {
      */
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFrag(new OneFragment(), "ONE");
-        adapter.addFrag(new TwoFragment(), "TWO");
-        adapter.addFrag(new ThreeFragment(), "THREE");
-        adapter.addFrag(new FourFragment(), "FOUR");
+        adapter.addFrag(new OneFragment(), "맛집");
+        adapter.addFrag(new TwoFragment(), "지도");
+        adapter.addFrag(new ThreeFragment(), "리스트");
+        adapter.addFrag(new FourFragment(), "설정");
         //adapter.addFrag(new OneFragment(), "ONE");
         //adapter.addFrag(new FiveFragment(), "FIVE");
         viewPager.setAdapter(adapter);

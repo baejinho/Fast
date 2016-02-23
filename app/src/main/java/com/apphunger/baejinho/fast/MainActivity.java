@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 if(loginId.getText().toString().equals(id)&&loginPwd.getText().toString().equals(pwd)) {
                     Toast.makeText(v.getContext(), "로그인에 성공하셨습니다", Toast.LENGTH_SHORT).show();
 
-                    Intent intent = new Intent(MainActivity.this, Taste.class);
+                    Intent intent = new Intent(MainActivity.this, TabsActivity.class);
                     startActivity(intent);
                 }else{
                     Toast.makeText(v.getContext(), "로그인에 실패하셨습니다", Toast.LENGTH_SHORT).show();
