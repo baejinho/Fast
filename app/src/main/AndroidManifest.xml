@@ -28,6 +28,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".List2Activity"></activity>
+        <activity android:name=".TabsActivity"></activity>
     </application>
 
 </manifest>
